@@ -7,7 +7,7 @@ export function Layout({ children }: any) {
   return (
     <>
       <Nav />
-        <main className='h-screen mx-[10%] bg-gray-100  '>{children}</main>
+        <main className='h-screen mx-[10%]'>{children}</main>
       <Footer />
     </>
   )
